@@ -1,0 +1,106 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-default{
+    background-color: white;
+}
+
+#new{
+    background-color: #00D5D0;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.myNav{
+    padding: 0 20px;
+}
+
+#headerTop{
+    border-bottom: 1px solid #e5e8ed;
+}
+
+#headerTop a{
+    background-color: transparent;
+    color: #5b6987;
+    margin-right: 18px;
+    font-weight:400;
+    font-size: 12px;
+}
+
+#headerBottom{
+    padding: 10px 0;
+}
+
+#headerBottom a{
+    color: #031b4e;
+}
+.UnifiedNav-logoSVG {
+    fill: #0069ff;
+    max-width: 180px;
+    height: 50px;
+    align-items: center;
+}
+
+
+
+#signUp.btn{
+    color: #1532FF;
+    border-color: #1532FF;
+    margin-right: 50px;
+}
+
+#signUp.btn:hover{
+    color: white;
+    background-color: #1532FF;
+}
+
+header{
+    background: #0248ff url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    color: white;
+    padding-top: 140px;
+}
+
+
+
+div #freeCredit.btn{
+    border-radius: 3px;
+    background-color: #00B47B;
+    margin-bottom: 40px;
+    color: white;
+
+}
+.hero{
+    padding-top:80px;
+}
+.hero h1,.hero p{
+
+    line-height: 1.5;
+}
+.hero h1{
+    font-size: 62px;
+    font-weight: bold;
+}
+.hero p{
+    font-size: 24px;
+    color:rgba(255, 255 , 255, 0.8);
+    font-weight: 200;
+}
+
+#deployForm{
+    background-color: white;
+
+}
+
+#deployForm h2{
+    color:#031b4e;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+
+}

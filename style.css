@@ -84,18 +84,18 @@ a:hover#freeCredit{
 }
 
 .hero{
-    padding:30px 15px;
+    padding:5% 15px;
 }
 .hero h1,.hero p{
 
     line-height: 1.5;
 }
 .hero h1{
-    font-size: 62px;
+    font-size: 42px;
     font-weight: bold;
 }
 .hero p{
-    font-size: 24px;
+    font-size: 18px;
     color:rgba(255, 255 , 255, 0.8);
     font-weight: 200;
 }
@@ -104,6 +104,7 @@ a:hover#freeCredit{
     background-color: white;
     border-radius: 6px;
     padding: 30px;
+    margin-bottom: 40px;
 
 
 }
@@ -200,12 +201,81 @@ a:hover#freeCredit{
 
 }
 
+#logosPartner{
+    background-color: #F3F5F9;
+    padding: 40px 0;
+}
+
+#logosPartner img{
+    max-width: 45%;
+    display: inline-block;
+}
+
+#logosPartner img:first-child{
+    padding-right: 60px;
+}
+#logosPartner img:last-child{
+    padding-left: 60px;
+}
+
+#logosPartner h2{
+    color: rgba(3,27,78,.4);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#logosPartner a{
+    color: #0000ee;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+}
+#logosPartner a:hover{
+    color: #0069ff;
+
+}
+#logosPartner a::after{
+    content: ' \203A';
+    display: inline-block;
+    color: #0000ee;
+    font-size: 20px;
+}
+
+#logosPartner a:hover::after{
+    color: #0069ff;
+}
+
 @media screen and (min-width: 768px) {
 
     a#freeCredit{
 
         margin-bottom: 40px;
+    }
 
+    .hero{
+        padding:6% 15px;
+    }
+    .hero h1,.hero p{
 
+        line-height: 1.3;
+    }
+    .hero h1{
+        font-size: 62px;
+        font-weight: bold;
+    }
+    .hero p{
+        font-size: 25px;
+        color:rgba(255, 255 , 255, 0.8);
+        font-weight: 200;
+        margin-top: 20px;
+    }
+
+    #logosPartner img:first-child{
+        padding-right: 30px;
+    }
+    #logosPartner img:last-child{
+        padding-left: 30px;
     }
 }

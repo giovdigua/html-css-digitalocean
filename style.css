@@ -247,6 +247,41 @@ a:hover#freeCredit{
     color: #0069ff;
 }
 
+.mySectionText{
+    text-align: center;
+}
+
+.mySectionText h2{
+    font-weight: bold;
+    font-size: 36px;
+    color: #031b4e;
+    margin-bottom: 16px;
+}
+.mySectionText p{
+    font-size: 20px;
+    color:rgba(3,27,78,.7)
+    margin-bottom: 16px;
+    line-height: 2;
+    font-weight: 200;
+}
+
+
+#deployScale ul li{
+    color: rgba(3,27,78,.5);
+    font-size: 16px;
+    padding: 20px;
+    border-left: 2px solid #e5e8ed;
+}
+#deployScale ul li.active{
+        border-left-color: #0069ff;
+}
+
+.myThreeColumn{
+    max-width: 100%;
+}
+
+
+
 @media screen and (min-width: 768px) {
 
     a#freeCredit{
@@ -277,5 +312,12 @@ a:hover#freeCredit{
     }
     #logosPartner img:last-child{
         padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .myThreeColumn{
+        max-width: 70%;
     }
 }

@@ -249,6 +249,7 @@ a:hover#freeCredit{
 
 .mySectionText{
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .mySectionText h2{
@@ -259,7 +260,7 @@ a:hover#freeCredit{
 }
 .mySectionText p{
     font-size: 20px;
-    color:rgba(3,27,78,.7)
+    color:rgba(3,27,78,.7);
     margin-bottom: 16px;
     line-height: 2;
     font-weight: 200;
@@ -278,6 +279,26 @@ a:hover#freeCredit{
 
 .myThreeColumn{
     max-width: 100%;
+}
+
+.myTextBox{
+    padding: 15px 0 0 15px;
+    margin: 40px 0;
+}
+
+.myTextBox h3{
+    font-weight: bold;
+    font-size: 18px;
+    color: #031b4e;
+    margin:8px 0 16px;
+}
+.myTextBox p{
+    font-size: 16px;
+    color: rgba(3,27,78,.7);
+    margin-bottom: 16px;
+    line-height: 1.4;
+    font-weight: 200;
+    min-height: 130px
 }
 
 
@@ -312,6 +333,10 @@ a:hover#freeCredit{
     }
     #logosPartner img:last-child{
         padding-left: 30px;
+    }
+
+    .myTextBox{
+        margin-top: 0;
     }
 }
 

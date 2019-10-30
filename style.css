@@ -67,15 +67,24 @@ header{
 
 
 
-div #freeCredit.btn{
+a#freeCredit{
     border-radius: 3px;
     background-color: #00B47B;
-    margin-bottom: 40px;
+    border: 1px solid #009969;
     color: white;
-
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    font-weight: 200;
 }
+
+a:hover#freeCredit{
+    text-decoration: none;
+}
+
 .hero{
-    padding-top:80px;
+    padding:30px 15px;
 }
 .hero h1,.hero p{
 
@@ -93,14 +102,110 @@ div #freeCredit.btn{
 
 #deployForm{
     background-color: white;
+    border-radius: 6px;
+    padding: 30px;
+
 
 }
 
 #deployForm h2{
     color:#031b4e;
     font-weight: bold;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     font-size: 30px;
+}
+
+#deployForm form .btn{
+    background-color: #0069ff;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#deployForm input {
+    padding: 25px 10px;
+    font-size: 16px;
+    border-color: #f1f1f1;
+    box-shadow: none;
+    border-radius: 8px;
+}
+#deployForm input:focus{
+
+    border-color: #0069ff;
+
+}
+#deployForm input::placeholder{
+    color: rgba(3,27,78,.7)
+}
+
+#deployForm small{
+    display: inline-block;
+    color: #5b6987;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+#deployForm small a{
+    color: #0069ff;
+    text-decoration: underline;
+}
 
 
+.my-separator {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #5b6987;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.my-separator::before,
+.my-separator::after {
+    content: '';
+    display: inline-block;
+    width: 35%;
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    border-radius: 2px;
+    background-color: #e5e8ed;
+}
+
+.my-separator::before {
+    left: 0;
+}
+
+.my-separator::after {
+    right: 0;
+}
+
+.alternativeSignUpBtn{
+    color: #031b4e;
+    background-color: #d5e3f7;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position:relative;
+    padding: 15px 0;
+    font-size: 16px;
+}
+.alternativeSignUpBtn img{
+    max-width: 20px;
+    position: absolute;
+    left: 6%;
+    top: 31%;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    a#freeCredit{
+
+        margin-bottom: 40px;
+
+
+    }
 }

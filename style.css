@@ -371,10 +371,70 @@ ul.bulletSlider li.full{
 
 }
 
+#twelveDataCenters{
+    background: #031b4e url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#twelveDataCenters h2 {
+    color: white;
+}
+#server{
+    padding-bottom: 50px;
+}
+.nameSever{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+
+}
+
+.place{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.testSpeed{
+    padding: 0;
+    color: #00d7d2;
+    font-size: 13px;
+
+}
+
+.testSpeed:hover{
+    text-decoration: none;
+    color: #005fe6;
+}
+table tbody tr td.noBorder{
+    border-top:0;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.testSpeedTD{
+    text-align: right;
+}
+
+table{
+    margin-bottom: 30px;
+}
+
 @media screen and (min-width: 768px) {
 
     .containerSmall{
         max-width: 90%;
+    }
+
+    .containerExtraSmall{
+        max-width: 80%;
     }
 
     a#freeCredit{
@@ -456,6 +516,10 @@ ul.bulletSlider li.full{
     .containerSmall{
         max-width: 83%;
     }
+
+    .containerExtraSmall{
+        max-width: 65%;
+    }
     .myTextBox p{
         min-height: 90px;
     }
@@ -467,6 +531,10 @@ ul.bulletSlider li.full{
 
     .myThreeColumn{
         max-width: 70%;
+    }
+
+    .containerExtraSmall{
+        max-width: 55%;
     }
 
     .containerSmall{

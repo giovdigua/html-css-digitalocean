@@ -6,6 +6,11 @@ p {
 
 }
 
+h3{
+    color: #031b4e;
+    font-weight: bold;
+}
+
 .navbar-default{
     background-color: white;
 }
@@ -232,25 +237,26 @@ a:hover#freeCredit{
     letter-spacing: 1px;
 }
 
-#logosPartner a{
-    color: #0000ee;
+.arrowBluLink a{
+    color: #0069ff;
     text-decoration: none;
     position: relative;
     font-size: 15px;
 }
-#logosPartner a:hover{
-    color: #0069ff;
+.arrowBluLink a:hover{
+
+    color: #0000ee;
 
 }
-#logosPartner a::after{
+.arrowBluLink a::after{
     content: ' \203A';
     display: inline-block;
-    color: #0000ee;
+    color: #0069ff;
     font-size: 20px;
 }
 
-#logosPartner a:hover::after{
-    color: #0069ff;
+.arrowBluLink a:hover::after{
+    color: #0000ee;
 }
 
 .mySectionText{
@@ -299,7 +305,6 @@ a:hover#freeCredit{
 .myTextBox h3{
     font-weight: bold;
     font-size: 18px;
-    color: #031b4e;
     margin:8px 0 16px;
 }
 .myTextBox p{
@@ -350,6 +355,22 @@ ul.bulletSlider li.full{
     background-color: #0069ff;
 }
 
+.myFourLgColumn h3 , .myFourLgColumn p{
+    margin: 16px 0;
+}
+
+.myFourLgColumn h3{
+    font-size: 18px;
+}
+
+.myFourLgColumn p{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5;
+
+
+}
+
 @media screen and (min-width: 768px) {
 
     .containerSmall{
@@ -398,11 +419,6 @@ ul.bulletSlider li.full{
     .sliderImgContainer{
         margin: 0 auto;
         position: relative;
-        /* margin-top: 20px;
-        margin-bottom: 20px;
-        color: #5b6987;
-        font-size: 16px;
-        font-weight: 200; */
     }
 
     .sliderImgContainer::before,.sliderImgContainer::after{
@@ -443,6 +459,7 @@ ul.bulletSlider li.full{
     .myTextBox p{
         min-height: 90px;
     }
+
 }
 
 @media screen and (min-width: 1200px) {

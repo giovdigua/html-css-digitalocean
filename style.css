@@ -253,6 +253,7 @@ a:hover#freeCredit{
     display: inline-block;
     color: #0069ff;
     font-size: 20px;
+    vertical-align: middle;
 }
 
 .arrowBluLink a:hover::after{
@@ -279,7 +280,7 @@ a:hover#freeCredit{
 }
 
 .myPaddingMainSections{
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -299,7 +300,7 @@ a:hover#freeCredit{
 
 .myTextBox{
     padding: 15px 0 0 15px;
-    margin: 40px 0;
+    margin: 10px 0;
 }
 
 .myTextBox h3{
@@ -312,12 +313,13 @@ a:hover#freeCredit{
     color: rgba(3,27,78,.7);
     line-height: 1.4;
     font-weight: 200;
-    min-height: 130px;
+
 }
 .slider{
     padding: 0 15px;
 }
 .sliderImgContainer{
+    max-width: 100%;
     text-align: center;
 }
 .sliderImgContainer img{
@@ -325,16 +327,18 @@ a:hover#freeCredit{
     max-width: 100%;
 }
 
-.sliderImgContainer p{
+.sliderImgContainer > p{
     padding: 25px 0;
     margin: 0 auto;
-    max-width: 90%
+    max-width: 95%;
+    font-size: 16px;
 }
 
 ul.bulletSlider{
 
+    padding: 0;
     padding-bottom: 5%;
-    left: 40%;
+    margin: 0 auto;
 
 }
 ul.bulletSlider li{
@@ -353,6 +357,12 @@ ul.bulletSlider li:hover{
 }
 ul.bulletSlider li.full{
     background-color: #0069ff;
+}
+
+.my-md-10{
+    padding-left: 9px;
+    padding-right: 9px;
+
 }
 
 .myFourLgColumn h3 , .myFourLgColumn p{
@@ -427,6 +437,76 @@ table{
     margin-bottom: 30px;
 }
 
+.sliderBlocQuotes{
+    background-color: #fff;
+    border: 1px solid #e5e8ed;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom:30px;
+}
+
+.sliderBlocQuotes img{
+    max-width:175px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.myBlockquote{
+
+    font-size: 26px;
+font-weight: lighter;
+line-height: 2;
+letter-spacing: 2px;
+color: rgba(3,27,78,.7);
+
+}
+
+.myCite{
+    font-size: 16px;
+    font-weight: 300;
+    olor: rgba(3,27,78,.7);
+}
+#getStartedNow{
+    background: #0248ff url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+
+}
+#getStartedNow p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 30px;
+
+}
+
+#getStartedNow .btn{
+    background-color: white;
+    color: #0069ff;
+    font-weight: bold;
+    padding: 12px 30px;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+}
+
+footer{
+    background-color: #020D27;
+    color: white;
+    font-size: 14;
+    font-weight: 200;
+}
+
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
 @media screen and (min-width: 768px) {
 
     .containerSmall{
@@ -472,18 +552,17 @@ table{
 
     }
 
-    .sliderImgContainer img{
-        max-width: 82%;
-    }
+
 
     .sliderImgContainer{
+
         margin: 0 auto;
         position: relative;
     }
 
     .sliderImgContainer::before,.sliderImgContainer::after{
         color: #031b4e;
-
+        max-width: 9%;
         font-size: 70px;
         position: absolute;
         top: 40%;
@@ -491,21 +570,24 @@ table{
     }
     .sliderImgContainer::before{
         content: ' \2039';
-        left: 2%;
+        left: -6%;
         color: rgba(0, 0, 0, 0.3);
     }
 
     .sliderImgContainer::after{
         content: ' \203A';
-        right:2%;
+        right:-6%;
     }
     .sliderImgContainer:hover::after{
         color: #0069ff;
         cursor: pointer;
     }
 
-    .sliderImgContainer p{
-        max-width: 80%
+
+
+    .sliderBlocQuotes{
+
+        position: relative;
     }
 
 

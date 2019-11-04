@@ -292,6 +292,12 @@ a:hover#freeCredit{
 }
 #deployScale ul li.active{
         border-left-color: #0069ff;
+        color: #031b4e;
+}
+#deployScale ul li:hover{
+
+        color: #031b4e;
+        cursor: pointer;
 }
 
 .myThreeColumn{
@@ -506,8 +512,38 @@ footer a:hover {
     text-decoration: none;
 }
 
+#topFooter .container{
+    border-bottom: 1px solid rgba(255,255, 255, 0.5);
+}
 
+#topFooter [class*="col-"]{
+    min-height: 300px;
+}
+#topFooter .col-xs-6:last-child{
+    min-height: 100px;
+}
+
+#bottomFooter{
+    padding-bottom: 50px;
+}
+copy{
+    color:rgba(255, 255 , 255, 0.5);
+    font-size: 14px;
+    vertical-align: 16px;
+    padding-left: 15px;
+}
+
+.social{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.social .fab{
+
+    color:rgba(255, 255 , 255, 0.5);
+}
 @media screen and (min-width: 768px) {
+
 
     .containerSmall{
         max-width: 90%;
@@ -605,6 +641,8 @@ footer a:hover {
     .myTextBox p{
         min-height: 90px;
     }
+
+
 
 }
 
